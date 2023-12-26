@@ -5149,3 +5149,20 @@ div#mCSB_1_container{
   top: 31%;
   left: 70%;
 }
+
+.main-header .outer-container .logo-box{
+  width: 160px;
+  padding: 53px 0px 30px 0px;
+}
+.sticky-header .logo-box{
+  width: 142px;
+  padding: 5px 0;
+}
+
+.for-mobile{
+  display: none;
+}
+@media only screen and (max-width: 768px){
+  .for-mobile{display: block;}
+  .for-desktop{display: none;}
+}
