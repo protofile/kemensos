@@ -5158,6 +5158,21 @@ div#mCSB_1_container{
   width: 142px;
   padding: 5px 0;
 }
+.news-block-one .image-box{
+  width: 100%;
+  float: left;
+  height: 0;
+  position: relative;
+  padding-top: 75%;
+}
+.news-block-one .image-box img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
 
 .for-mobile{
   display: none;
