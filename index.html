@@ -935,7 +935,7 @@
         var tppok = document.getElementById("korbanTPPOKota").getContext("2d");
 
         var mybarChart = new Chart(abd, {
-            type: 'bar',
+            type: 'horizontalBar',
             data: {
                 labels: ['Kursi Roda Standar', 'Alat Bantu Dengar', 'Tongkat 1/2/3/5', 'Tongkat Adaptif', 'Kruk Ketiak', 'Kursi Roda Celebral Palsy', 'Kursi Roda Multi Guna', 'Walker', 'Kaki Palsu', 'Motor Roda Tiga Usaha', 'Kursi Roda 4', 'Gruwi', 'Tangan Palsu', 'Kursi Roda Elektrik', 'Sensor Air'],
                 datasets: [{
@@ -949,6 +949,7 @@
                 legend: {
                 display: false,
                 position: 'top',
+                responsive: true,
                 labels: {
                     fontColor: "#000080",
                 }
@@ -965,7 +966,7 @@
 
 
         var chartAtensiKewirausahaan = new Chart(ak, {
-            type: 'bar',
+            type: 'horizontalBar',
             data: {
                 labels: ['D.I. Yogyakarta','Jawa Timur','Jawa Barat','Bali','Jawa Tengah','Banten','Sumatera Barat','Sumatera Utara','Sumatera Selatan','Sulawesi Tenggara','Sulawesi Tengah','Jambi','Sulawesi Selatan','NTT','NTB', 'Kepulauan Riau','Bengkulu','Riau','Lampung','Kalimantan Selatan','DKI Jakarta'],
                 datasets: [{
@@ -994,7 +995,7 @@
         });
 
         var chartKorbanTPPO = new Chart(tppo, {
-            type: 'bar',
+            type: 'horizontalBar',
             data: {
                 labels: ['Jawa Timur','NTB','Sumatera Utara','NTT','Jawa Barat','Jawa Tengah','DKI Jakarta','Aceh','Kepulauan Riau','Banten','Riau','Kalimantan Barat','Lampung','Sumatera Selatan','Jambi','Bali','Sulawesi Tengah','Sulawesi Selatan','Maluku','Sumatera Barat','Sulawesi Tenggara','Gorontalo','Sulawesi Barat','D.I. Yogyakarta','Sulawesi Utara','Kalimantan Utara','Bengkulu','Papua Barat','Kep. Bangka Belitung'],
                 datasets: [{
@@ -1023,7 +1024,7 @@
         });
 
         var chartKorbanTPPO = new Chart(tppok, {
-            type: 'bar',
+            type: 'horizontalBar',
             data: {
                 labels: ['Lombok Timur','Lumajang','Lombok Tengah','Deli Serdang','Tengah Utara','Medan','Sumenep','Langkat','Asahan','Sumbawa','Ende','Malaka','Jember','Cianjur','Pamekasan','Tangerang','Kota Batam','Nagekeo','Karawang','Grobogan','Kupang','Jakarta Barat','Indramayu','Buleleng','Sampang','Merangin','Lombok Barat','Jakarta Utara','Jakarta Timur','Bengkalis','Belu','Tulungagung','Kota Singkawang','Batu Bara','Batam','Bandung','Kediri','Cirebon','Aceh Utara','Subang','Manggarai TImur','Jakarta Pusat','Cilacap','Bekasi','Banyuwangi','Sigi','Manggarai','Kota Bandung','Karimun','Binjai','Timor Tengah Selatan','Serdang Bedagai','Serang','Pandeglang'],
                 datasets: [{
