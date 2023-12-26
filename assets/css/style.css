@@ -674,7 +674,7 @@ img {
   float:left;
   z-index:2;
   padding:64px 0px 20px 0px;
-  margin: 0px 30px;
+  margin: 0px 15px;
   -webkit-transition:all 300ms ease;
   -moz-transition:all 300ms ease;
   -ms-transition:all 300ms ease;
@@ -694,7 +694,7 @@ img {
   position:relative;
   display:block;
   text-align:center;
-  font-size:18px;
+  font-size:14px;
   line-height:30px;
   font-weight:600;
   opacity:1;
@@ -1269,7 +1269,7 @@ div#mCSB_1_container{
 }
 
 .sticky-header .main-menu .navigation > li > a{
-  padding: 15px 30px !important;
+  padding: 15px 15px !important;
 }
 
 .sticky-header .main-menu .navigation > li > a{
