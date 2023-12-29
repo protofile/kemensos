@@ -5179,6 +5179,11 @@ div#mCSB_1_container{
   background: #EAF0F4;
 }
 
+.chart{
+  position: relative;
+  height: 700px;
+}
+
 .for-mobile{
   display: none;
 }
@@ -5194,7 +5199,7 @@ div#mCSB_1_container{
   .bagan-wrap img{
     width: 100%;
   }
-  .chart canvas{
-    height: 1000px;
+  .chart{
+    height: 800px;
   }
 }
